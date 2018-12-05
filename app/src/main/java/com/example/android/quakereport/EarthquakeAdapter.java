@@ -16,10 +16,10 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
 
-public class EarthquakerAdapter extends ArrayAdapter<Earthquake> {
+public class EarthquakeAdapter extends ArrayAdapter<Earthquake> {
 
 
-    public EarthquakerAdapter(@NonNull Context context, @NonNull List<Earthquake> objects) {
+    public EarthquakeAdapter(@NonNull Context context, @NonNull List<Earthquake> objects) {
         super(context, 0, objects);
     }
 
